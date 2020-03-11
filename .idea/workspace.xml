@@ -1,24 +1,62 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="PSK:war exploded" />
+    </artifacts-to-build>
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="8112329f-c380-4c73-a89d-b2c70ec71b3e" name="Default Changelist" comment="" />
+    <list default="true" id="8112329f-c380-4c73-a89d-b2c70ec71b3e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/javax_javaee_api_8_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/webContexts.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/index.xhtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/PSK/index.jsp" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="facelets" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/main/webapp/index.xhtml" root0="FORCE_HIGHLIGHTING" />
+  </component>
   <component name="ProjectId" id="1Yz8CoxNhJ7M3ryWSZstQqlkcIy" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.externalResources" />
   </component>
   <component name="RunManager">
     <configuration name="JBoss 18.0.0.Final" type="JBossConfiguration" factoryName="Local" APPLICATION_SERVER_NAME="JBoss 18.0.0.Final" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
@@ -161,7 +199,17 @@
       <list>
         <serviceView>
           <treeState>
-            <expand />
+            <expand>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="JBoss Server" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="JBoss Server" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="Running" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+            </expand>
             <select />
           </treeState>
         </serviceView>
@@ -178,7 +226,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1583933937035</updated>
-      <workItem from="1583933941738" duration="226000" />
+      <workItem from="1583933941738" duration="3030000" />
+      <workItem from="1583937810283" duration="742000" />
     </task>
     <servers />
   </component>
@@ -190,21 +239,45 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="447" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1583934167248" />
-    <state width="724" height="97" key="GridCell.Tab.0.bottom" timestamp="1583934167270">
+    <state x="599" y="0" key="#com.intellij.openapi.roots.ui.configuration.libraryEditor.LibraryEditorDialog" timestamp="1583938238206">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="724" height="97" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1583934167270" />
-    <state width="724" height="97" key="GridCell.Tab.0.center" timestamp="1583934167269">
+    <state x="599" y="0" key="#com.intellij.openapi.roots.ui.configuration.libraryEditor.LibraryEditorDialog/0.0.1536.824@0.0.1536.824" timestamp="1583938238206" />
+    <state x="499" y="167" key="#com.intellij.util.ui.classpath.ChooseLibrariesDialog" timestamp="1583938240530">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="724" height="97" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1583934167269" />
-    <state width="724" height="97" key="GridCell.Tab.0.left" timestamp="1583934167269">
+    <state x="499" y="167" key="#com.intellij.util.ui.classpath.ChooseLibrariesDialog/0.0.1536.824@0.0.1536.824" timestamp="1583938240530" />
+    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1583938183937">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="724" height="97" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1583934167269" />
-    <state width="724" height="97" key="GridCell.Tab.0.right" timestamp="1583934167270">
+    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1583938183937" />
+    <state width="1024" height="213" key="GridCell.Tab.0.bottom" timestamp="1583938608676">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="724" height="97" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1583934167270" />
+    <state width="1024" height="213" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1583938608676" />
+    <state width="1024" height="213" key="GridCell.Tab.0.center" timestamp="1583938608676">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1024" height="213" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1583938608676" />
+    <state width="1024" height="213" key="GridCell.Tab.0.left" timestamp="1583938608676">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1024" height="213" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1583938608676" />
+    <state width="1024" height="213" key="GridCell.Tab.0.right" timestamp="1583938608676">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1024" height="213" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1583938608676" />
+    <state x="249" y="0" key="SettingsEditor" timestamp="1583938243402">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="249" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1583938243402" />
+    <state x="498" y="306" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1583938232352">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="498" y="306" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1536.824@0.0.1536.824" timestamp="1583938232352" />
+    <state x="299" y="49" key="com.intellij.javaee.MapExternalResourceDialog" timestamp="1583938104083">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="299" y="49" key="com.intellij.javaee.MapExternalResourceDialog/0.0.1536.824@0.0.1536.824" timestamp="1583938104083" />
   </component>
 </project>
