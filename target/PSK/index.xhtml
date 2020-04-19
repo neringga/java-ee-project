@@ -10,14 +10,25 @@
         "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 
 <html xmlns="http://www.w3.org/1999/xhtml"
-      xmlns:h="http://java.sun.com/jsf/html">
+      xmlns:h="http://java.sun.com/jsf/html"
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets">
 
 <h:head>
     <title>Title</title>
 </h:head>
 
 <h:body>
-    <h:inputText></h:inputText>
+    <h2>Courses:</h2>
+    <ol>
+        <ui:repeat value="#{courses.courses}" var="course">
+            <li><h:link value="#{course.name}" outcome="students?courseId=#{course.id}" /></li>
+        </ui:repeat>
+    </ol>
+    <h:form>
+        <h:inputText value="#{courses.courseToCreate.name}" required="true" />
+        <h:commandButton value="Add new course" action="#{courses.createCourse}" />
+    </h:form>
+    <h:link outcome="mybatis/courses" value="MyBatis implementation"/>
 </h:body>
 
 </html>
