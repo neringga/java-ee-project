@@ -17,8 +17,7 @@ public class Courses {
     @Inject
     private CourseDAO courseDAO;
 
-    @Getter
-    @Setter
+    @Getter @Setter
     private Course courseToCreate = new Course();
 
     @Getter

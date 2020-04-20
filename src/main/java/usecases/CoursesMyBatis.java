@@ -24,10 +24,10 @@ public class CoursesMyBatis {
 
     @PostConstruct
     public void init() {
-        this.loadAllTeams();
+        this.loadAllCourses();
     }
 
-    private void loadAllTeams() {
+    private void loadAllCourses() {
         this.courses = courseMapper.selectAll();
     }
 

@@ -6,6 +6,8 @@ import lombok.Setter;
 import javax.persistence.*;
 import javax.validation.constraints.Size;
 import java.io.Serializable;
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Objects;
 
 @Entity
@@ -23,13 +25,15 @@ public class Student implements Serializable {
 
     @Size(max = 50)
     @Column(name = "NAME")
-    @Getter @Setter
     private String name;
 
     @ManyToOne
     @JoinColumn(name="COURSE_ID")
-    @Getter @Setter
     private Course course;
+
+    @ManyToMany
+    @JoinTable(name="Student_UniClass")
+    private List<UniClass> uniClass = new ArrayList();
 
     public Student() {}
 

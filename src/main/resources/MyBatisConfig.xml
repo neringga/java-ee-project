@@ -6,6 +6,8 @@
     <typeAliases>
         <typeAlias type="mybatis.model.Student" alias="Student"/>
         <typeAlias type="mybatis.model.Course" alias="Course"/>
+        <typeAlias type="mybatis.model.UniClass" alias="UniClass"/>
+
     </typeAliases>
     <environments default="development">
         <environment id="development">
@@ -18,5 +20,7 @@
     <mappers>
         <mapper resource="mybatis.xml/CourseMapper.xml"/>
         <mapper resource="mybatis.xml/StudentMapper.xml"/>
+        <mapper resource="mybatis.xml/UniClassMapper.xml"/>
+        <mapper resource="mybatis.xml/StudentUniClassMapper.xml"/>
     </mappers>
 </configuration>

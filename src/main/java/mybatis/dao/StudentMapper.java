@@ -45,4 +45,6 @@ public interface StudentMapper {
      * @mbg.generated Sun Mar 29 17:36:45 EEST 2020
      */
     int updateByPrimaryKey(Student record);
+
+    List<Student> selectByCourseId(Integer id);
 }

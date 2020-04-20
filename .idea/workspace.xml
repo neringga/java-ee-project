@@ -7,35 +7,34 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8112329f-c380-4c73-a89d-b2c70ec71b3e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/entities/Course.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/entities/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/persistence/CourseDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/persistence/DAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/persistence/MyBatisResources.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/persistence/Resources.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/persistence/StudentDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/usecases/CourseStudents.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/usecases/Courses.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/usecases/CoursesMyBatis.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/MyBatisConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/generatorConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/resources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/students-ds.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/mybatis/courses.xhtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/mybatis/students.xhtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/students.xhtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/entities/UniClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/usecases/CourseStudentsMyBatis.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PSK.iml" beforeDir="false" afterPath="$PROJECT_DIR$/PSK.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.xhtml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.xhtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/PSK/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/PSK/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/PSK/index.xhtml" beforeDir="false" afterPath="$PROJECT_DIR$/target/PSK/index.xhtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/entities/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/entities/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/mybatis/dao/StudentMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mybatis/dao/StudentMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/usecases/Courses.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/usecases/Courses.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/usecases/CoursesMyBatis.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/usecases/CoursesMyBatis.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/MyBatisConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/MyBatisConfig.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/generatorConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/generatorConfig.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mybatis.xml/StudentMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mybatis.xml/StudentMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/mybatis/courses.xhtml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/mybatis/courses.xhtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/mybatis/students.xhtml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/mybatis/students.xhtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/PSK/WEB-INF/classes/MyBatisConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/PSK/WEB-INF/classes/MyBatisConfig.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/PSK/WEB-INF/classes/entities/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/PSK/WEB-INF/classes/entities/Student.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/PSK/WEB-INF/classes/generatorConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/PSK/WEB-INF/classes/generatorConfig.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/PSK/WEB-INF/classes/mybatis.xml/StudentMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/PSK/WEB-INF/classes/mybatis.xml/StudentMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/PSK/WEB-INF/classes/mybatis/dao/StudentMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/PSK/WEB-INF/classes/mybatis/dao/StudentMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/PSK/WEB-INF/classes/usecases/Courses.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/PSK/WEB-INF/classes/usecases/Courses.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/PSK/WEB-INF/classes/usecases/CoursesMyBatis.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/PSK/WEB-INF/classes/usecases/CoursesMyBatis.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/PSK/mybatis/courses.xhtml" beforeDir="false" afterPath="$PROJECT_DIR$/target/PSK/mybatis/courses.xhtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/PSK/mybatis/students.xhtml" beforeDir="false" afterPath="$PROJECT_DIR$/target/PSK/mybatis/students.xhtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/MyBatisConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/MyBatisConfig.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/entities/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/entities/Student.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/generatorConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/generatorConfig.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mybatis.xml/StudentMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mybatis.xml/StudentMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mybatis/dao/StudentMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mybatis/dao/StudentMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/usecases/Courses.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/usecases/Courses.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/usecases/CoursesMyBatis.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/usecases/CoursesMyBatis.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,6 +56,32 @@
       <path>
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
         <item name="h2student" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="h2student" type="feb32156:DbDataSourceImpl" />
+        <item name="STUDENTDB: database" type="2aa06773:H2ImplModel$Database" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="h2student" type="feb32156:DbDataSourceImpl" />
+        <item name="STUDENTDB: database" type="2aa06773:H2ImplModel$Database" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="h2student" type="feb32156:DbDataSourceImpl" />
+        <item name="STUDENTDB: database" type="2aa06773:H2ImplModel$Database" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="PUBLIC: schema" type="7f85d983:H2ImplModel$Schema" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="h2student" type="feb32156:DbDataSourceImpl" />
+        <item name="STUDENTDB: database" type="2aa06773:H2ImplModel$Database" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="PUBLIC: schema" type="7f85d983:H2ImplModel$Schema" />
+        <item name="tables" type="d4e8921:DatabaseStructure$FamilyGroup" />
       </path>
     </expand>
     <select />
@@ -93,6 +118,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DatabaseDriversLRU" value="h2" />
     <property name="Downloaded.Files.Path.Enabled" value="false" />
     <property name="Repository.Attach.Annotations" value="false" />
@@ -110,15 +136,24 @@
     <property name="settings.editor.selected.configurable" value="database.main" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="mybatis.model" />
+      <recent name="mybatis.dao" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Neringa\Desktop\Univeras\PSK\src\main\resources\mybatis.xml" />
       <recent name="C:\Users\Neringa\Desktop\Univeras\PSK\src\main\java\mybatis\dao" />
       <recent name="C:\Users\Neringa\Desktop\Univeras\PSK\src\main\java\mybatis" />
-      <recent name="C:\Users\Neringa\Desktop\Univeras\PSK\src\main\resources\mybatis.xml" />
       <recent name="C:\Users\Neringa\Desktop\Univeras\PSK\src\main\resources\mybatis" />
       <recent name="C:\Users\Neringa\Desktop\Univeras\PSK\src\main\myBatis" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn mybatis-generator:generate" />
+    </option>
+  </component>
+  <component name="RunManager" selected="JBoss Server.JBoss 18.0.0.Final">
     <configuration name="JBoss 18.0.0.Final" type="JBossConfiguration" factoryName="Local" APPLICATION_SERVER_NAME="JBoss 18.0.0.Final" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
       <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/PSK/" />
       <option name="UPDATING_POLICY" value="restart-server" />
@@ -253,12 +288,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="index.xhtml" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:8080/PSK/index.xhtml">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.index.xhtml" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
       <list>
         <serviceView>
-          <option name="contentProportion" value="0.12978142" />
+          <option name="contentProportion" value="0.20013662" />
           <treeState>
             <expand>
               <path>
@@ -268,7 +311,7 @@
               <path>
                 <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
                 <item name="JBoss Server" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-                <item name="Running" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="Finished" type="7427dc5b:ServiceModel$ServiceGroupNode" />
               </path>
             </expand>
             <select />
@@ -299,7 +342,8 @@
       <workItem from="1585477645428" duration="6206000" />
       <workItem from="1585495237642" duration="4022000" />
       <workItem from="1585558550143" duration="599000" />
-      <workItem from="1587278487147" duration="9001000" />
+      <workItem from="1587278487147" duration="17674000" />
+      <workItem from="1587361900689" duration="10029000" />
     </task>
     <servers />
   </component>
@@ -307,18 +351,18 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="722" y="71" key="#Assign_Data_Sources" timestamp="1583962342141">
+    <state x="722" y="71" key="#Assign_Data_Sources" timestamp="1587321862109">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="722" y="71" key="#Assign_Data_Sources/0.0.1536.824@0.0.1536.824" timestamp="1583962342141" />
+    <state x="722" y="71" key="#Assign_Data_Sources/0.0.1536.824@0.0.1536.824" timestamp="1587321862109" />
     <state x="361" y="71" key="#Project_Structure" timestamp="1584887775545">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="361" y="71" key="#Project_Structure/0.0.1536.824@0.0.1536.824" timestamp="1584887775545" />
-    <state x="447" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1587278807759">
+    <state x="447" y="67" width="1089" height="565" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1587370005935">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="447" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1587278807759" />
+    <state x="447" y="67" width="1089" height="565" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1587370005935" />
     <state x="533" y="215" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1584865643555">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -335,6 +379,14 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="599" y="0" key="#com.intellij.openapi.roots.ui.configuration.libraryEditor.LibraryEditorDialog/0.0.1536.824@0.0.1536.824" timestamp="1583938238206" />
+    <state x="566" y="297" width="403" height="236" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1587323370555">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="566" y="297" width="403" height="236" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1536.824@0.0.1536.824" timestamp="1587323370555" />
+    <state x="493" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1587321449768">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="493" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1536.824@0.0.1536.824" timestamp="1587321449768" />
     <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1584870102913">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -347,26 +399,26 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="499" y="167" key="#com.intellij.util.ui.classpath.ChooseLibrariesDialog/0.0.1536.824@0.0.1536.824" timestamp="1583938240530" />
-    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1584890847060">
+    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1587322344859">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1584890847060" />
-    <state width="1273" height="132" key="GridCell.Tab.0.bottom" timestamp="1587315884870">
+    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1587322344859" />
+    <state width="1170" height="152" key="GridCell.Tab.0.bottom" timestamp="1587363253202">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1273" height="132" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1587315884870" />
-    <state width="1273" height="132" key="GridCell.Tab.0.center" timestamp="1587315884869">
+    <state width="1170" height="152" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1587363253202" />
+    <state width="1170" height="152" key="GridCell.Tab.0.center" timestamp="1587363253202">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1273" height="132" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1587315884869" />
-    <state width="1273" height="132" key="GridCell.Tab.0.left" timestamp="1587315884869">
+    <state width="1170" height="152" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1587363253202" />
+    <state width="1170" height="152" key="GridCell.Tab.0.left" timestamp="1587363253202">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1273" height="132" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1587315884869" />
-    <state width="1273" height="132" key="GridCell.Tab.0.right" timestamp="1587315884870">
+    <state width="1170" height="152" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1587363253202" />
+    <state width="1170" height="152" key="GridCell.Tab.0.right" timestamp="1587363253202">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1273" height="132" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1587315884870" />
+    <state width="1170" height="152" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1587363253202" />
     <state x="249" y="0" key="SettingsEditor" timestamp="1585481146815">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -395,5 +447,9 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="462" y="10" width="611" height="804" key="find.popup/0.0.1536.824@0.0.1536.824" timestamp="1587313383857" />
+    <state x="425" y="187" width="672" height="677" key="run.anything.popup" timestamp="1587323461476">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="425" y="187" width="672" height="677" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1587323461476" />
   </component>
 </project>

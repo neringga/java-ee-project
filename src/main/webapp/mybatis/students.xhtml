@@ -7,16 +7,17 @@
       xmlns:f="http://java.sun.com/jsf/core">
 <h:head/>
 <h:body>
-    <h2>Students learning in #{students.course.name} course:</h2>
+    <h1>MY BATIS</h1>
+    <h2>Students learning in #{courseStudentsMyBatis.course.name} course:</h2>
     <ol>
-        <ui:repeat value="#{courseStudents.course.students}" var="student">
+        <ui:repeat value="#{courseStudentsMyBatis.students}" var="student">
             <li>#{student.name}</li>
         </ui:repeat>
     </ol>
     <h:form>
-        <h:inputText a:placeholder="name" value="#{courseStudents.studentToCreate.name}" required="true" />
-        <h:commandButton value="Add student to the course" action="#{courseStudents.createStudent}" >
-            <f:param name="courseId" value="#{courseStudents.course.id}" />
+        <h:inputText a:placeholder="name" value="#{courseStudentsMyBatis.studentToCreate.name}" required="true" />
+        <h:commandButton value="Add student to the course" action="#{courseStudentsMyBatis.createStudent}" >
+            <f:param name="courseId" value="#{courseStudentsMyBatis.course.id}" />
         </h:commandButton>
     </h:form>
     <h:link outcome="/mybatis/courses" value="Back to courses page"/>

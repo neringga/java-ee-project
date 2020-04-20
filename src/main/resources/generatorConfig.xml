@@ -22,8 +22,13 @@
             <ignoreColumn column="opt_lock_version" />
         </table>
         <table schema="public" tableName="student">
-            <generatedKey column="id" identity="true" sqlStatement="JDBC" />
-            <ignoreColumn column="opt_lock_version" />
+        <generatedKey column="id" identity="true" sqlStatement="JDBC" />
+        <ignoreColumn column="opt_lock_version" />
         </table>
+        <table schema="public" tableName="uniclass">
+        <generatedKey column="id" identity="true" sqlStatement="JDBC" />
+        <ignoreColumn column="opt_lock_version" />
+        </table>
+        <table schema="public" tableName="student_uniclass"/>
     </context>
 </generatorConfiguration>

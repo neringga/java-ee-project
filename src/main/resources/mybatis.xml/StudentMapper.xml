@@ -59,4 +59,10 @@
     select ID, NAME, COURSE_ID
     from PUBLIC.STUDENT
   </select>
+
+  <select id="selectByCourseId" parameterType="java.lang.Integer" resultMap="BaseResultMap">
+    select ID, NAME, COURSE_ID
+    from PUBLIC.STUDENT
+    where COURSE_ID = #{id,jdbcType=INTEGER}
+  </select>
 </mapper>
