@@ -1,5 +1,7 @@
 package persistence;
 
+import interceptors.LoggedInvocation;
+
 import javax.enterprise.context.ApplicationScoped;
 import javax.enterprise.context.RequestScoped;
 import javax.enterprise.inject.Default;
@@ -19,10 +21,12 @@ public class Resources {
     @Produces
     @Default
     @RequestScoped
+    @LoggedInvocation
     private EntityManager createJTAEntityManager() {
         return emf.createEntityManager(SynchronizationType.SYNCHRONIZED);
     }
 
+    @LoggedInvocation
     private void closeDefaultEntityManager(@Disposes @Default EntityManager em) {
         em.close();
     }

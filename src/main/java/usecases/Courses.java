@@ -1,6 +1,7 @@
 package usecases;
 
 import entities.Course;
+import helpers.UniversityName;
 import lombok.Getter;
 import lombok.Setter;
 import persistence.CourseDAO;
@@ -17,6 +18,9 @@ public class Courses {
     @Inject
     private CourseDAO courseDAO;
 
+    @Inject
+    private UniversityName universityName;
+
     @Getter @Setter
     private Course courseToCreate = new Course();
 
@@ -26,6 +30,10 @@ public class Courses {
     @PostConstruct
     public void init(){
         loadAllCourses();
+    }
+
+    public String getUniversityName() {
+        return universityName.getUniversityName();
     }
 
     @Transactional

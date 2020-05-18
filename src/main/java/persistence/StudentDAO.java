@@ -24,6 +24,14 @@ public class StudentDAO implements DAO<Student> {
         this._entityManager.persist(student);
     }
 
+    public Student findOne(Integer id) {
+        return _entityManager.find(Student.class, id);
+    }
+
+    public Student update(Student st) {
+        return _entityManager.merge(st);
+    }
+
     @Override
     public void setEM(EntityManager em) {
         this._entityManager = em;

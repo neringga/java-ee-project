@@ -2,6 +2,7 @@ package usecases;
 
 import entities.Course;
 import entities.Student;
+import interceptors.LoggedInvocation;
 import lombok.Getter;
 import lombok.Setter;
 import persistence.CourseDAO;
@@ -38,6 +39,7 @@ public class CourseStudents implements Serializable {
     }
 
     @Transactional
+    @LoggedInvocation
     public String createStudent() {
         studentToCreate.setCourse(this.course);
         studentDAO.persist(studentToCreate);

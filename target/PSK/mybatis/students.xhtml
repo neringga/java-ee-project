@@ -8,8 +8,7 @@
 <h:head/>
 <h:body>
     <h1>MY BATIS</h1>
-    <h2>Students learning in #{courseStudentsMyBatis
-    .course.name} course:</h2>
+    <h2>Students learning in #{courseStudentsMyBatis.course.name} course:</h2>
     <ol>
         <ui:repeat value="#{courseStudentsMyBatis.students}" var="student">
             <li>#{student.name}</li>

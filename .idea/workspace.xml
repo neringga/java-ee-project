@@ -7,34 +7,44 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8112329f-c380-4c73-a89d-b2c70ec71b3e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/entities/UniClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/usecases/CourseStudentsMyBatis.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/contracts/StudentDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/helpers/SuperUniversityName.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/helpers/UniversityName.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/interceptors/LoggedInvocation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/interceptors/MethodLogger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/interfaces/IUniversityName.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/rest/ApiConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/rest/StudentsController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/services/ExtremelyFastNumberGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/services/FastNumberGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/services/INumberGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/services/NumberGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/usecases/GenerateStudentNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/usecases/IUpdateStudentDetails.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/usecases/UpdateStudentDetails.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/usecases/UpdateStudentDetailsDecorator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/beans.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/studentDetails.xhtml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/entities/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/entities/Student.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mybatis/dao/StudentMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mybatis/dao/StudentMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/persistence/Resources.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/persistence/Resources.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/persistence/StudentDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/persistence/StudentDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/usecases/CourseStudents.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/usecases/CourseStudents.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/usecases/Courses.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/usecases/Courses.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/usecases/CoursesMyBatis.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/usecases/CoursesMyBatis.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/MyBatisConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/MyBatisConfig.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/generatorConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/generatorConfig.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mybatis.xml/StudentMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mybatis.xml/StudentMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/mybatis/courses.xhtml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/mybatis/courses.xhtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/mybatis/students.xhtml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/mybatis/students.xhtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/PSK/WEB-INF/classes/MyBatisConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/PSK/WEB-INF/classes/MyBatisConfig.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.xhtml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.xhtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/students.xhtml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/students.xhtml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/PSK/WEB-INF/classes/entities/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/PSK/WEB-INF/classes/entities/Student.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/PSK/WEB-INF/classes/generatorConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/PSK/WEB-INF/classes/generatorConfig.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/PSK/WEB-INF/classes/mybatis.xml/StudentMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/PSK/WEB-INF/classes/mybatis.xml/StudentMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/PSK/WEB-INF/classes/mybatis/dao/StudentMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/PSK/WEB-INF/classes/mybatis/dao/StudentMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/PSK/WEB-INF/classes/persistence/StudentDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/PSK/WEB-INF/classes/persistence/StudentDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/PSK/WEB-INF/classes/usecases/CourseStudents.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/PSK/WEB-INF/classes/usecases/CourseStudents.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/PSK/WEB-INF/classes/usecases/Courses.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/PSK/WEB-INF/classes/usecases/Courses.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/PSK/WEB-INF/classes/usecases/CoursesMyBatis.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/PSK/WEB-INF/classes/usecases/CoursesMyBatis.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/PSK/mybatis/courses.xhtml" beforeDir="false" afterPath="$PROJECT_DIR$/target/PSK/mybatis/courses.xhtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/PSK/index.xhtml" beforeDir="false" afterPath="$PROJECT_DIR$/target/PSK/index.xhtml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/PSK/mybatis/students.xhtml" beforeDir="false" afterPath="$PROJECT_DIR$/target/PSK/mybatis/students.xhtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/MyBatisConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/MyBatisConfig.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/PSK/students.xhtml" beforeDir="false" afterPath="$PROJECT_DIR$/target/PSK/students.xhtml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/entities/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/entities/Student.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/generatorConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/generatorConfig.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mybatis.xml/StudentMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mybatis.xml/StudentMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mybatis/dao/StudentMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mybatis/dao/StudentMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/persistence/StudentDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/persistence/StudentDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/usecases/CourseStudents.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/usecases/CourseStudents.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/usecases/Courses.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/usecases/Courses.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/usecases/CoursesMyBatis.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/usecases/CoursesMyBatis.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,9 +100,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="facelets" />
-        <option value="Interface" />
         <option value="XSLT Stylesheet" />
         <option value="Tag Library Descriptor" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -133,7 +143,7 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="database.main" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
@@ -343,7 +353,9 @@
       <workItem from="1585495237642" duration="4022000" />
       <workItem from="1585558550143" duration="599000" />
       <workItem from="1587278487147" duration="17674000" />
-      <workItem from="1587361900689" duration="10029000" />
+      <workItem from="1587361900689" duration="12086000" />
+      <workItem from="1589617586074" duration="12462000" />
+      <workItem from="1589655653656" duration="19804000" />
     </task>
     <servers />
   </component>
@@ -371,10 +383,11 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="407" y="100" key="#com.intellij.ide.fileTemplates.ui.ConfigureTemplatesDialog/0.0.1536.824@0.0.1536.824" timestamp="1584868533221" />
-    <state x="574" y="122" key="#com.intellij.ide.util.MemberChooser" timestamp="1584869362692">
+    <state x="574" y="122" key="#com.intellij.ide.util.MemberChooser" timestamp="1589705372316">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="574" y="122" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1584869362692" />
+    <state x="718" y="-926" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824/0.-1080.1920.1040@0.-1080.1920.1040" timestamp="1589657673038" />
+    <state x="574" y="122" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1589705372316" />
     <state x="599" y="0" key="#com.intellij.openapi.roots.ui.configuration.libraryEditor.LibraryEditorDialog" timestamp="1583938238206">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -383,10 +396,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="566" y="297" width="403" height="236" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1536.824@0.0.1536.824" timestamp="1587323370555" />
-    <state x="493" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1587321449768">
+    <state x="493" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1589721282338">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="493" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1536.824@0.0.1536.824" timestamp="1587321449768" />
+    <state x="493" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1536.824@0.0.1536.824" timestamp="1589721282338" />
     <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1584870102913">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -403,25 +416,30 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1587322344859" />
-    <state width="1170" height="152" key="GridCell.Tab.0.bottom" timestamp="1587363253202">
+    <state width="1170" height="143" key="GridCell.Tab.0.bottom" timestamp="1589785507078">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1170" height="152" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1587363253202" />
-    <state width="1170" height="152" key="GridCell.Tab.0.center" timestamp="1587363253202">
+    <state width="1477" height="149" key="GridCell.Tab.0.bottom/0.0.1536.824/0.-1080.1920.1040@0.-1080.1920.1040" timestamp="1589658245756" />
+    <state width="1170" height="143" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1589785507078" />
+    <state width="1170" height="143" key="GridCell.Tab.0.center" timestamp="1589785507078">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1170" height="152" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1587363253202" />
-    <state width="1170" height="152" key="GridCell.Tab.0.left" timestamp="1587363253202">
+    <state width="1477" height="149" key="GridCell.Tab.0.center/0.0.1536.824/0.-1080.1920.1040@0.-1080.1920.1040" timestamp="1589658245756" />
+    <state width="1170" height="143" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1589785507078" />
+    <state width="1170" height="143" key="GridCell.Tab.0.left" timestamp="1589785507078">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1170" height="152" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1587363253202" />
-    <state width="1170" height="152" key="GridCell.Tab.0.right" timestamp="1587363253202">
+    <state width="1477" height="149" key="GridCell.Tab.0.left/0.0.1536.824/0.-1080.1920.1040@0.-1080.1920.1040" timestamp="1589658245756" />
+    <state width="1170" height="143" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1589785507078" />
+    <state width="1170" height="143" key="GridCell.Tab.0.right" timestamp="1589785507078">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1170" height="152" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1587363253202" />
-    <state x="249" y="0" key="SettingsEditor" timestamp="1585481146815">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="1477" height="149" key="GridCell.Tab.0.right/0.0.1536.824/0.-1080.1920.1040@0.-1080.1920.1040" timestamp="1589658245756" />
+    <state width="1170" height="143" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1589785507078" />
+    <state x="311" y="-1080" key="SettingsEditor" timestamp="1589639426520">
+      <screen x="0" y="-1080" width="1920" height="1040" />
     </state>
+    <state x="311" y="-1080" key="SettingsEditor/0.0.1536.824/0.-1080.1920.1040@0.-1080.1920.1040" timestamp="1589639426520" />
     <state x="249" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1585481146815" />
     <state x="653" y="302" width="322" height="233" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1" timestamp="1583960410751">
       <screen x="0" y="0" width="1536" height="824" />
